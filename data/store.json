@@ -1,0 +1,1041 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-25T12:22:43.238Z",
+  "data": {
+    "profile": {
+      "id": "dde724e8fa0b236041a10668",
+      "fullName": "Muhammed M",
+      "title": "Full-Stack Developer",
+      "tagline": "Building scalable, production-ready web applications.",
+      "introduction": "I'm a full-stack developer who enjoys the parts of the job that are invisible when they go well: clean API boundaries, data models that still make sense a year later, and interfaces that stay usable at 3am on a phone with one bar of signal.",
+      "philosophy": "Write the simplest thing that is genuinely correct, then make it fast only where measurement says it matters. Code is read far more often than it is written, so clarity beats cleverness almost every time. Anything that has to be remembered will eventually be forgotten, so encode it in types, tests or constraints instead.",
+      "currentFocus": "Deepening my work on distributed systems fundamentals, and getting better at designing APIs that stay pleasant to use as they grow.",
+      "technicalInterests": [
+        "API and schema design",
+        "Accessibility and inclusive interfaces",
+        "Developer tooling and build performance",
+        "Observability and production debugging",
+        "Type systems"
+      ],
+      "careerSummary": "Around five years building web applications across agency, logistics and analytics teams — most recently leading the redesign of a customer-facing reporting API, and consistently the person who ends up owning data modelling and API contracts.",
+      "publicEmail": null,
+      "location": "Thiruvananthapuram",
+      "githubUrl": "https://github.com/example",
+      "linkedinUrl": "https://www.linkedin.com/in/example",
+      "websiteUrl": null,
+      "avatarUrl": null,
+      "resumeUrl": null,
+      "availableForWork": true,
+      "createdAt": "2026-01-05T09:00:00.000Z",
+      "updatedAt": "2026-09-25T12:22:42.975Z"
+    },
+    "technologies": [
+      {
+        "id": "ce0c2587fcf4cfea357e5cb7",
+        "name": "React",
+        "slug": "react",
+        "category": "frontend",
+        "icon": "atom",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "9e32770d8609aa63de164f53",
+        "name": "TypeScript",
+        "slug": "typescript",
+        "category": "frontend",
+        "icon": "file-code",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "3e88deba71b8e65b17484f55",
+        "name": "JavaScript",
+        "slug": "javascript",
+        "category": "frontend",
+        "icon": "braces",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "9d6928cf05d0a76372f5bf19",
+        "name": "Tailwind CSS",
+        "slug": "tailwind-css",
+        "category": "frontend",
+        "icon": "wind",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "9c291fe33d996a5c7c311740",
+        "name": "shadcn/ui",
+        "slug": "shadcn-ui",
+        "category": "frontend",
+        "icon": "component",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "de7f51b6b4ca8583bd84c82e",
+        "name": "Vite",
+        "slug": "vite",
+        "category": "frontend",
+        "icon": "zap",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "65243c74411793a19089e15b",
+        "name": "HTML5",
+        "slug": "html5",
+        "category": "frontend",
+        "icon": "code",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "261033e9be59d613943a7d86",
+        "name": "CSS3",
+        "slug": "css3",
+        "category": "frontend",
+        "icon": "palette",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "53bd2d183e0088e1d1ae8032",
+        "name": "Node.js",
+        "slug": "node-js",
+        "category": "backend",
+        "icon": "hexagon",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "acb72d220cbbe5e0d4d54137",
+        "name": "Express",
+        "slug": "express",
+        "category": "backend",
+        "icon": "server",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "a7376affd6bbbd777992e18c",
+        "name": "REST API",
+        "slug": "rest-api",
+        "category": "backend",
+        "icon": "plug",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "c52038fbee7bbdd106e4ea64",
+        "name": "JWT",
+        "slug": "jwt",
+        "category": "backend",
+        "icon": "key-round",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "b5572c677a03c001c2f33d3c",
+        "name": "Socket.IO",
+        "slug": "socket-io",
+        "category": "backend",
+        "icon": "radio",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "6b28b91e00d5fd14fcce635d",
+        "name": "MongoDB",
+        "slug": "mongodb",
+        "category": "database",
+        "icon": "leaf",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "7ae078af2398f4c0ff207550",
+        "name": "Mongoose",
+        "slug": "mongoose",
+        "category": "database",
+        "icon": "database",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "4bba5e9b50966fa75dca2966",
+        "name": "PostgreSQL",
+        "slug": "postgresql",
+        "category": "database",
+        "icon": "database",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "3c030394f2f17f424d0a86ed",
+        "name": "Redis",
+        "slug": "redis",
+        "category": "database",
+        "icon": "zap",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "33b2b1181d52fdbe5650b2a5",
+        "name": "Docker",
+        "slug": "docker",
+        "category": "devops",
+        "icon": "container",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "4bff1f4c536e727c9c9c714a",
+        "name": "GitHub Actions",
+        "slug": "github-actions",
+        "category": "devops",
+        "icon": "workflow",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "1e6a1f2065832173146f9a26",
+        "name": "Nginx",
+        "slug": "nginx",
+        "category": "devops",
+        "icon": "network",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "12d81230140bf844e7a67309",
+        "name": "Vercel",
+        "slug": "vercel",
+        "category": "devops",
+        "icon": "triangle",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "553994607a985e5583e26bbe",
+        "name": "Git",
+        "slug": "git",
+        "category": "tools",
+        "icon": "git-branch",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "4e4869ef4a2ff672e625d182",
+        "name": "Figma",
+        "slug": "figma",
+        "category": "tools",
+        "icon": "figma",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "97b616d9cc02175fc7b9cdec",
+        "name": "Postman",
+        "slug": "postman",
+        "category": "tools",
+        "icon": "send",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      }
+    ],
+    "projects": [
+      {
+        "id": "faba5f9b9214a26efa22b880",
+        "title": "BM Canteen",
+        "slug": "developer-portfolio-platform",
+        "shortDescription": "A full-stack portfolio with a REST API, JWT-authenticated admin panel and a swappable persistence layer.",
+        "description": "A production-shaped portfolio application rather than a static site. The public pages render entirely from the API, and every piece of content — projects, skills, experience, education and the About copy — is editable through an authenticated admin panel. The persistence layer sits behind a repository interface, so the storage backend can be replaced without touching a controller, a service or a single line of frontend code.",
+        "problem": "Static portfolio sites prove that someone can style a page. They prove nothing about API design, authentication, data modelling or how a person structures an application that has to be maintained. Every content change also means a code change and a redeploy.",
+        "solution": "Split the application into a React frontend and an Express REST API with a layered backend: routes delegate to controllers, controllers to services, and services to repositories behind an interface. Content lives in the database and is managed through a protected admin panel, so updating a job title is an admin action rather than a deploy.",
+        "features": [
+          "JWT authentication delivered in an httpOnly cookie with CSRF double-submit protection",
+          "Full CRUD for projects, experience, education, skills and technologies",
+          "Paginated, filterable contact-message inbox with unread/read/archived states",
+          "Light, dark and system themes with the preference persisted",
+          "Repository layer allowing the storage backend to be swapped in isolation",
+          "Centralised error handling with a consistent response envelope"
+        ],
+        "architecture": "React and Axios talk to an Express REST API. Requests pass through helmet, CORS, rate limiting, authentication and express-validator before reaching a thin controller, which delegates to a service holding the business logic. Services depend only on repository interfaces, so the concrete storage implementation is injected at a single composition root.",
+        "challenges": "Keeping the storage layer genuinely swappable meant resisting the temptation to leak query objects through the repository interface. Filters are expressed in domain vocabulary instead, which required designing purpose-built repository methods rather than one generic find().",
+        "lessonsLearned": "Cross-entity rules belong in the service layer, not in schema validators. Pushing date-ordering and uniqueness checks up one level meant they held for every storage backend rather than only the one that happened to be wired up.",
+        "image": "https://res.cloudinary.com/uqhimakl/image/upload/v1790161215/Screenshot_2026-09-23_162951.png",
+        "screenshots": [],
+        "githubUrl": "https://github.com/example/portfolio-platform",
+        "liveUrl": "https://canteen-demo.globtech.in/",
+        "featured": true,
+        "status": "completed",
+        "displayOrder": 0,
+        "technologyIds": [
+          "ce0c2587fcf4cfea357e5cb7",
+          "9e32770d8609aa63de164f53",
+          "53bd2d183e0088e1d1ae8032",
+          "acb72d220cbbe5e0d4d54137",
+          "6b28b91e00d5fd14fcce635d",
+          "9d6928cf05d0a76372f5bf19",
+          "c52038fbee7bbdd106e4ea64"
+        ],
+        "createdAt": "2026-08-14T09:00:00.000Z",
+        "updatedAt": "2026-09-25T05:18:36.446Z"
+      },
+      {
+        "id": "74d0637b3750347863467a36",
+        "title": "Loyaltri-HRMS",
+        "slug": "realtime-collaboration-board",
+        "shortDescription": "A multi-user kanban board with live cursors, optimistic updates and conflict resolution over WebSockets.",
+        "description": "A collaborative planning board where several people can drag cards simultaneously and see each other work in real time. The interesting part is not the board — it is reconciling concurrent edits without the UI flickering or losing a change.",
+        "problem": "Naive realtime boards either lock a card while someone drags it, which feels broken, or apply every event blindly, which means two people moving the same card produce an inconsistent result.",
+        "solution": "Optimistic local updates paired with a server-authoritative event log. Each mutation carries a client id and a monotonic sequence number, so late-arriving events can be reordered or discarded rather than blindly replayed.",
+        "features": [
+          "Live cursors and presence indicators",
+          "Optimistic drag-and-drop with server reconciliation",
+          "Per-board access control",
+          "Offline queueing with replay on reconnect",
+          "Activity history per card"
+        ],
+        "architecture": "A Socket.IO gateway sits alongside the REST API and shares its authentication middleware. Board state is held in Redis for fast fan-out, with periodic snapshots to the primary database.",
+        "challenges": "Reconnection was harder than the realtime path itself. A client that drops mid-drag must replay queued mutations without duplicating them, which meant making every mutation idempotent.",
+        "lessonsLearned": "Designing events to be idempotent from the start is far cheaper than retrofitting deduplication once the protocol is in use.",
+        "image": "https://res.cloudinary.com/uqhimakl/image/upload/v1790313460/Screenshot_2026-09-25_104656.png",
+        "screenshots": [],
+        "githubUrl": "https://github.com/example/collab-board",
+        "liveUrl": "https://web.loyaltri.com/",
+        "featured": true,
+        "status": "completed",
+        "displayOrder": 1,
+        "technologyIds": [
+          "ce0c2587fcf4cfea357e5cb7",
+          "9e32770d8609aa63de164f53",
+          "b5572c677a03c001c2f33d3c",
+          "53bd2d183e0088e1d1ae8032",
+          "3c030394f2f17f424d0a86ed",
+          "acb72d220cbbe5e0d4d54137"
+        ],
+        "createdAt": "2026-06-02T09:00:00.000Z",
+        "updatedAt": "2026-09-25T05:19:09.035Z"
+      },
+      {
+        "id": "e565b1c23864c36febeaae1c",
+        "title": "Inventory Forecasting API",
+        "slug": "inventory-forecasting-api",
+        "shortDescription": "A REST service that projects stock depletion from historical sales and flags reorder points.",
+        "description": "A backend service for small retailers that turns raw sales history into actionable reorder dates. Built API-first, with a scheduled job recomputing forecasts nightly and a thin dashboard consuming the same public endpoints.",
+        "problem": "Small retailers discover they are out of stock when a customer asks. Spreadsheets do not account for lead time or seasonal variation, so reorders are consistently late.",
+        "solution": "A weighted moving average over trailing sales, adjusted for per-supplier lead time, producing a projected depletion date per SKU. Anything inside its lead-time window is surfaced as a reorder alert.",
+        "features": [
+          "Per-SKU depletion forecasting",
+          "Supplier lead-time modelling",
+          "Reorder alerts with configurable thresholds",
+          "Bulk CSV import with per-row validation and error reporting",
+          "Nightly scheduled recomputation"
+        ],
+        "architecture": "Express REST API over PostgreSQL, with a scheduled worker recomputing forecasts out of band so request latency is unaffected by the heavier statistical work.",
+        "challenges": "CSV import was the source of most real-world failures. Reporting every bad row at once, rather than failing on the first, turned a frustrating loop into a single correction pass.",
+        "lessonsLearned": "Validation feedback quality matters more than validation strictness. Users abandon an import that rejects their file without saying which of 4,000 rows was wrong.",
+        "image": "/images/projects/inventory-api.svg",
+        "screenshots": [],
+        "githubUrl": "https://github.com/example/inventory-forecast",
+        "liveUrl": null,
+        "featured": true,
+        "status": "completed",
+        "displayOrder": 2,
+        "technologyIds": [
+          "53bd2d183e0088e1d1ae8032",
+          "acb72d220cbbe5e0d4d54137",
+          "4bba5e9b50966fa75dca2966",
+          "9e32770d8609aa63de164f53",
+          "33b2b1181d52fdbe5650b2a5",
+          "a7376affd6bbbd777992e18c"
+        ],
+        "createdAt": "2026-04-19T09:00:00.000Z",
+        "updatedAt": "2026-04-19T09:00:00.000Z"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Docme Cloud Solutions",
+        "position": "Junior Full-Stack Engineer",
+        "location": "Thiruvananthapuram",
+        "startDate": "2024-06-01",
+        "endDate": null,
+        "description": "Lead engineer on a customer-facing analytics product. Redesigned the reporting API around cursor pagination, cutting p95 response time from 1.8s to 240ms. Introduced a shared component library that removed roughly 6,000 lines of duplicated UI code across three applications, and mentored two engineers through their first production services.",
+        "technologies": [
+          "React",
+          "node",
+          "express",
+          "postgre",
+          "sequelize orm",
+          "prisma"
+        ],
+        "companyUrl": null,
+        "displayOrder": 0,
+        "id": "053e5955380f5bc5e5b12b1b",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-09-25T12:20:31.389Z"
+      },
+      {
+        "company": "Meridian Systems",
+        "position": "Full-Stack Developer",
+        "location": "Bristol, UK",
+        "startDate": "2022-09-01",
+        "endDate": "2024-05-31",
+        "description": "Built and maintained internal tooling for a logistics platform handling around 40,000 shipments a day. Replaced a nightly batch reconciliation job with an event-driven pipeline, reducing data staleness from 24 hours to under a minute. Owned the migration from JavaScript to TypeScript across four services.",
+        "technologies": [
+          "React",
+          "JavaScript",
+          "TypeScript",
+          "Express",
+          "Redis"
+        ],
+        "companyUrl": null,
+        "displayOrder": 1,
+        "id": "b1068ca9a5e362b19e96e49f",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "company": "Coastline Digital",
+        "position": "Frontend Developer",
+        "location": "Bristol, UK",
+        "startDate": "2021-02-01",
+        "endDate": "2022-08-31",
+        "description": "Delivered client web applications in a small agency team. Introduced automated accessibility testing into the build pipeline, which took the default project template from repeated WCAG failures to AA conformance at handover.",
+        "technologies": [
+          "React",
+          "JavaScript",
+          "CSS3",
+          "Figma"
+        ],
+        "companyUrl": null,
+        "displayOrder": 2,
+        "id": "a4646b039af0f37160dddbe1",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "company": "Harbourview Institute of Technology",
+        "position": "Teaching Assistant, Web Development",
+        "location": "Bristol, UK",
+        "startDate": "2020-09-01",
+        "endDate": "2021-01-31",
+        "description": "Supported an undergraduate web development module of around 120 students, running lab sessions on HTTP, REST design and relational modelling, and marking coursework.",
+        "technologies": [
+          "JavaScript",
+          "HTML5",
+          "CSS3"
+        ],
+        "companyUrl": null,
+        "displayOrder": 3,
+        "id": "2cf346b12c25f976ce6e3fdb",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Harbourview Institute of Technology",
+        "degree": "BSc (Hons) Computer Science",
+        "field": "Software Engineering",
+        "location": "Bristol, UK",
+        "startDate": "2017-09-01",
+        "endDate": "2020-07-01",
+        "grade": "First Class Honours",
+        "description": "Final-year project built a distributed task scheduler with at-least-once delivery guarantees. Coursework covered algorithms, databases, operating systems, computer networks and human-computer interaction.",
+        "displayOrder": 0,
+        "id": "5adca93a443c66eb515fe987",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "institution": "Open Learning Collective",
+        "degree": "Professional Certificate",
+        "field": "Cloud Architecture and Containerisation",
+        "location": "Online",
+        "startDate": "2023-01-01",
+        "endDate": "2023-06-01",
+        "grade": "Distinction",
+        "description": "Part-time certificate covering container orchestration, infrastructure as code, observability and deployment strategy.",
+        "displayOrder": 1,
+        "id": "6f0be5d57ea845c1df0c775d",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "institution": "Open Learning Collective",
+        "degree": "Short Course",
+        "field": "Accessibility for Web Developers",
+        "location": "Online",
+        "startDate": "2025-03-01",
+        "endDate": null,
+        "grade": null,
+        "description": "Ongoing study of WCAG 2.2 criteria, assistive technology behaviour and accessible design patterns.",
+        "displayOrder": 2,
+        "id": "5cfea11babde554946199d38",
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      }
+    ],
+    "skills": [
+      {
+        "id": "db4b46c500a40011c2d95311",
+        "name": "React",
+        "category": "frontend",
+        "icon": "atom",
+        "proficiency": 92,
+        "displayOrder": 0,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "3826e6c457872a120a9a8194",
+        "name": "TypeScript",
+        "category": "frontend",
+        "icon": "file-code",
+        "proficiency": 90,
+        "displayOrder": 1,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "63d54dff1e9c13d4048d704b",
+        "name": "JavaScript",
+        "category": "frontend",
+        "icon": "braces",
+        "proficiency": 93,
+        "displayOrder": 2,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "abc6bedb608ace8f7466e4de",
+        "name": "HTML",
+        "category": "frontend",
+        "icon": "code",
+        "proficiency": 95,
+        "displayOrder": 3,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "21ce6e6e36df4f9f590dc836",
+        "name": "CSS",
+        "category": "frontend",
+        "icon": "palette",
+        "proficiency": 88,
+        "displayOrder": 4,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "d9ff900352c6b644829d45f2",
+        "name": "Tailwind CSS",
+        "category": "frontend",
+        "icon": "wind",
+        "proficiency": 90,
+        "displayOrder": 5,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "d79ff1ab21679fe0e5503f64",
+        "name": "shadcn/ui",
+        "category": "frontend",
+        "icon": "component",
+        "proficiency": 84,
+        "displayOrder": 6,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "18cbd5c1568b4f8c6bf4da27",
+        "name": "Node.js",
+        "category": "backend",
+        "icon": "hexagon",
+        "proficiency": 89,
+        "displayOrder": 0,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "e2b8e0ac08a16475d02f4e9d",
+        "name": "Express.js",
+        "category": "backend",
+        "icon": "server",
+        "proficiency": 88,
+        "displayOrder": 1,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "d626ef42654dfa775009c8af",
+        "name": "REST APIs",
+        "category": "backend",
+        "icon": "plug",
+        "proficiency": 90,
+        "displayOrder": 2,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "740fc10b8083f756b7a63591",
+        "name": "JWT",
+        "category": "backend",
+        "icon": "key-round",
+        "proficiency": 85,
+        "displayOrder": 3,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "9532e48d9a62259ee21ef845",
+        "name": "WebSockets",
+        "category": "backend",
+        "icon": "radio",
+        "proficiency": 74,
+        "displayOrder": 4,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "64b36934b4efb082db5f5fc6",
+        "name": "MongoDB",
+        "category": "database",
+        "icon": "leaf",
+        "proficiency": 82,
+        "displayOrder": 0,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "c993aa9f15af5c1aa42fe0ee",
+        "name": "PostgreSQL",
+        "category": "database",
+        "icon": "database",
+        "proficiency": 79,
+        "displayOrder": 2,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "22bbbbca24cae3409bb95c63",
+        "name": "Redis",
+        "category": "database",
+        "icon": "zap",
+        "proficiency": 72,
+        "displayOrder": 3,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "66e4cef20721b0cce2127444",
+        "name": "GitHub Actions",
+        "category": "devops",
+        "icon": "workflow",
+        "proficiency": 74,
+        "displayOrder": 1,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "57fc489278a258c53eb350a9",
+        "name": "Git",
+        "category": "tools",
+        "icon": "git-branch",
+        "proficiency": 92,
+        "displayOrder": 0,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "2799f6694f8b5886f981f695",
+        "name": "VS Code",
+        "category": "tools",
+        "icon": "code-2",
+        "proficiency": 94,
+        "displayOrder": 1,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      },
+      {
+        "id": "33db88edbbd14211575a8c5d",
+        "name": "Postman",
+        "category": "tools",
+        "icon": "send",
+        "proficiency": 83,
+        "displayOrder": 2,
+        "createdAt": "2026-01-05T09:00:00.000Z",
+        "updatedAt": "2026-01-05T09:00:00.000Z"
+      }
+    ],
+    "contactMessages": [
+      {
+        "id": "5752a42dc47d24d404e1f1fa",
+        "name": "Priya Raman",
+        "email": "priya.raman@example.com",
+        "subject": "Senior engineer role at Lumen Retail",
+        "message": "We are hiring a senior full-stack engineer and your portfolio came up through a referral. The stack is React, Node and Postgres. Would you be open to an intro call this month?",
+        "status": "unread",
+        "ipAddress": null,
+        "readAt": null,
+        "createdAt": "2026-09-20T09:00:00.000Z",
+        "updatedAt": "2026-09-20T09:00:00.000Z"
+      },
+      {
+        "id": "3add69569d6337452d4792aa",
+        "name": "Daniel Okafor",
+        "email": "daniel.okafor@example.com",
+        "subject": "Question about the collaboration board",
+        "message": "I read your write-up on the realtime board and I am stuck on reconnection handling. How did you stop queued mutations replaying twice after a drop mid-drag?",
+        "status": "unread",
+        "ipAddress": null,
+        "readAt": null,
+        "createdAt": "2026-09-19T09:00:00.000Z",
+        "updatedAt": "2026-09-19T09:00:00.000Z"
+      },
+      {
+        "id": "3161dd38070a9b05b3f7aa86",
+        "name": "Sofia Lindqvist",
+        "email": "sofia.l@example.com",
+        "subject": "Freelance dashboard project",
+        "message": "We need an internal analytics dashboard built over an existing REST API. Roughly six weeks of work. Is your freelance availability open?",
+        "status": "unread",
+        "ipAddress": null,
+        "readAt": null,
+        "createdAt": "2026-09-18T09:00:00.000Z",
+        "updatedAt": "2026-09-18T09:00:00.000Z"
+      },
+      {
+        "id": "5179147dce62cc2daa9d8584",
+        "name": "Marcus Webb",
+        "email": "m.webb@example.com",
+        "subject": "Conference talk invitation",
+        "message": "I organise a regional frontend meetup and would love a 30-minute talk on accessibility testing in CI. We cover travel.",
+        "status": "unread",
+        "ipAddress": null,
+        "readAt": null,
+        "createdAt": "2026-09-17T09:00:00.000Z",
+        "updatedAt": "2026-09-17T09:00:00.000Z"
+      },
+      {
+        "id": "d46f834ce4c0cff3fe223195",
+        "name": "Aisha Karim",
+        "email": "aisha.karim@example.com",
+        "subject": "Component library licence",
+        "message": "Is the accessible component library usable in a commercial product? The licence file was not obvious from the README.",
+        "status": "unread",
+        "ipAddress": null,
+        "readAt": null,
+        "createdAt": "2026-09-16T09:00:00.000Z",
+        "updatedAt": "2026-09-16T09:00:00.000Z"
+      },
+      {
+        "id": "b7a253ab2fb6710ccbba45be",
+        "name": "Tomasz Nowak",
+        "email": "tomasz@example.com",
+        "subject": "Bug: CSV import rejects valid rows",
+        "message": "The inventory forecasting import rejects rows with a trailing BOM. Happy to send a sample file if useful.",
+        "status": "unread",
+        "ipAddress": null,
+        "readAt": null,
+        "createdAt": "2026-09-15T09:00:00.000Z",
+        "updatedAt": "2026-09-15T09:00:00.000Z"
+      },
+      {
+        "id": "3435a537fedbb818bca47810",
+        "name": "Elena Vasquez",
+        "email": "elena.v@example.com",
+        "subject": "Contract role — 6 months",
+        "message": "We have a six-month contract for a full-stack developer on a logistics platform. Remote, flexible hours.",
+        "status": "unread",
+        "ipAddress": null,
+        "readAt": null,
+        "createdAt": "2026-09-14T09:00:00.000Z",
+        "updatedAt": "2026-09-14T09:00:00.000Z"
+      },
+      {
+        "id": "20b92f8161d175fbbefa0e63",
+        "name": "James Fletcher",
+        "email": "j.fletcher@example.com",
+        "subject": "Mentoring availability",
+        "message": "I am switching into development from a QA role. Do you ever take on mentees, even informally?",
+        "status": "unread",
+        "ipAddress": null,
+        "readAt": null,
+        "createdAt": "2026-09-13T09:00:00.000Z",
+        "updatedAt": "2026-09-13T09:00:00.000Z"
+      },
+      {
+        "id": "c073f0b5ab18d036089ea21e",
+        "name": "Nadia Hassan",
+        "email": "nadia.hassan@example.com",
+        "subject": "Podcast interview request",
+        "message": "I host a podcast on engineering practice and would love an episode on keeping storage layers swappable.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-09-12T09:00:00.000Z",
+        "createdAt": "2026-09-12T09:00:00.000Z",
+        "updatedAt": "2026-09-12T09:00:00.000Z"
+      },
+      {
+        "id": "631d5c9782fba57dc7e57929",
+        "name": "Robert Chen",
+        "email": "r.chen@example.com",
+        "subject": "Partnership enquiry",
+        "message": "We build developer tooling and think there may be overlap with your query performance explorer. Worth a conversation?",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-11T09:00:00.000Z",
+        "createdAt": "2026-08-11T09:00:00.000Z",
+        "updatedAt": "2026-08-11T09:00:00.000Z"
+      },
+      {
+        "id": "19db2a1ca60784abaf4df2d6",
+        "name": "Grace Mbeki",
+        "email": "grace.mbeki@example.com",
+        "subject": "Typo on the projects page",
+        "message": "Small thing — the inventory forecasting card says \"depeletion\" rather than \"depletion\".",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-10T09:00:00.000Z",
+        "createdAt": "2026-08-10T09:00:00.000Z",
+        "updatedAt": "2026-08-10T09:00:00.000Z"
+      },
+      {
+        "id": "3e03626ba3c024155d3d585e",
+        "name": "Henrik Olsen",
+        "email": "henrik@example.com",
+        "subject": "Rate card",
+        "message": "Could you send your day rate for short consulting engagements? We need an API design review.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-09T09:00:00.000Z",
+        "createdAt": "2026-08-09T09:00:00.000Z",
+        "updatedAt": "2026-08-09T09:00:00.000Z"
+      },
+      {
+        "id": "c46bc602f502e70dee470b12",
+        "name": "Lucia Ferraro",
+        "email": "lucia.ferraro@example.com",
+        "subject": "Speaking at our internal engineering day",
+        "message": "We run an internal engineering day each quarter and would like an external speaker on API design.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-08T09:00:00.000Z",
+        "createdAt": "2026-08-08T09:00:00.000Z",
+        "updatedAt": "2026-08-08T09:00:00.000Z"
+      },
+      {
+        "id": "56d3cb2942eb5ef559bd4a65",
+        "name": "Omar Siddiqui",
+        "email": "omar.s@example.com",
+        "subject": "Question on the repository pattern",
+        "message": "How do you stop the repository interface leaking database-specific query shapes? Mine always ends up Mongo-flavoured.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-07T09:00:00.000Z",
+        "createdAt": "2026-08-07T09:00:00.000Z",
+        "updatedAt": "2026-08-07T09:00:00.000Z"
+      },
+      {
+        "id": "a0eb71fd2a9ef2cc2244421b",
+        "name": "Hannah Reid",
+        "email": "hannah.reid@example.com",
+        "subject": "Job spec attached — Staff Engineer",
+        "message": "Attaching a staff engineer spec. Strong emphasis on platform and developer experience.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-06T09:00:00.000Z",
+        "createdAt": "2026-08-06T09:00:00.000Z",
+        "updatedAt": "2026-08-06T09:00:00.000Z"
+      },
+      {
+        "id": "bb7f6a8a9a65b3dd0b1f83c6",
+        "name": "Victor Petrov",
+        "email": "victor.petrov@example.com",
+        "subject": "Open source contribution",
+        "message": "I would like to add keyboard shortcut support to the component library. Do you accept outside PRs?",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-05T09:00:00.000Z",
+        "createdAt": "2026-08-05T09:00:00.000Z",
+        "updatedAt": "2026-08-05T09:00:00.000Z"
+      },
+      {
+        "id": "09f047caba66c2b5bf73e1ed",
+        "name": "Amara Diallo",
+        "email": "amara.d@example.com",
+        "subject": "Workshop facilitation",
+        "message": "Would you consider running a one-day workshop on testing strategy for a team of twelve?",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-04T09:00:00.000Z",
+        "createdAt": "2026-08-04T09:00:00.000Z",
+        "updatedAt": "2026-08-04T09:00:00.000Z"
+      },
+      {
+        "id": "47cb8a8ea7c6c08fcbb0209d",
+        "name": "Felix Braun",
+        "email": "felix.braun@example.com",
+        "subject": "Broken demo link",
+        "message": "The live demo link on the knowledge base project returns a 502 for me.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-08-03T09:00:00.000Z",
+        "createdAt": "2026-08-03T09:00:00.000Z",
+        "updatedAt": "2026-08-03T09:00:00.000Z"
+      },
+      {
+        "id": "5834480dda79a425341a16a5",
+        "name": "Ingrid Larsen",
+        "email": "ingrid@example.com",
+        "subject": "Recruiting — platform team",
+        "message": "We are building out a platform team and your experience with developer tooling looks like a strong match.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-07-02T09:00:00.000Z",
+        "createdAt": "2026-07-02T09:00:00.000Z",
+        "updatedAt": "2026-07-02T09:00:00.000Z"
+      },
+      {
+        "id": "22a05060624a82a8ab875cd8",
+        "name": "Carlos Mendes",
+        "email": "c.mendes@example.com",
+        "subject": "Thanks for the write-up",
+        "message": "The piece on flaky test detection changed how we handle re-runs. We found 14 flaky tests in the first week.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-07-01T09:00:00.000Z",
+        "createdAt": "2026-07-01T09:00:00.000Z",
+        "updatedAt": "2026-07-01T09:00:00.000Z"
+      },
+      {
+        "id": "3a65dd17864c98c2e9c26719",
+        "name": "Yuki Tanaka",
+        "email": "yuki.tanaka@example.com",
+        "subject": "Collaboration on an article",
+        "message": "I am writing about swappable persistence layers and would like to quote your approach. Happy to review before publishing.",
+        "status": "read",
+        "ipAddress": null,
+        "readAt": "2026-07-20T09:00:00.000Z",
+        "createdAt": "2026-07-20T09:00:00.000Z",
+        "updatedAt": "2026-07-20T09:00:00.000Z"
+      },
+      {
+        "id": "22f9c0c59741d7c270e7498e",
+        "name": "Simone Rousseau",
+        "email": "simone.r@example.com",
+        "subject": "Design system consultation",
+        "message": "We are starting a design system and would value a few hours of consultation on token architecture.",
+        "status": "archived",
+        "ipAddress": null,
+        "readAt": "2026-07-19T09:00:00.000Z",
+        "createdAt": "2026-07-19T09:00:00.000Z",
+        "updatedAt": "2026-07-19T09:00:00.000Z"
+      },
+      {
+        "id": "17b14e726974fb71ca54a06f",
+        "name": "Adebayo Johnson",
+        "email": "adebayo.j@example.com",
+        "subject": "Question about scaling",
+        "message": "At what point did the link shortener need Redis? Trying to work out if we are optimising too early.",
+        "status": "archived",
+        "ipAddress": null,
+        "readAt": "2026-07-18T09:00:00.000Z",
+        "createdAt": "2026-07-18T09:00:00.000Z",
+        "updatedAt": "2026-07-18T09:00:00.000Z"
+      },
+      {
+        "id": "c10a836d13a35a1a0f405bf1",
+        "name": "Clara Hoffmann",
+        "email": "clara.h@example.com",
+        "subject": "Internship mentorship programme",
+        "message": "We run a summer internship and are looking for industry mentors for a few hours a month.",
+        "status": "archived",
+        "ipAddress": null,
+        "readAt": "2026-07-17T09:00:00.000Z",
+        "createdAt": "2026-07-17T09:00:00.000Z",
+        "updatedAt": "2026-07-17T09:00:00.000Z"
+      },
+      {
+        "id": "fdcedc2b430eb99e7f4c4de2",
+        "name": "Rafael Santos",
+        "email": "rafael.santos@example.com",
+        "subject": "API documentation feedback",
+        "message": "The API docs are clear, but the pagination section would benefit from a worked example of the cursor format.",
+        "status": "archived",
+        "ipAddress": null,
+        "readAt": "2026-07-16T09:00:00.000Z",
+        "createdAt": "2026-07-16T09:00:00.000Z",
+        "updatedAt": "2026-07-16T09:00:00.000Z"
+      },
+      {
+        "id": "597dddb3189a0beac07fd660",
+        "name": "Mei Lin",
+        "email": "mei.lin@example.com",
+        "subject": "Startup CTO role",
+        "message": "Early-stage startup, seed funded, looking for a founding engineer. Equity heavy. Interested in a conversation?",
+        "status": "archived",
+        "ipAddress": null,
+        "readAt": "2026-07-15T09:00:00.000Z",
+        "createdAt": "2026-07-15T09:00:00.000Z",
+        "updatedAt": "2026-07-15T09:00:00.000Z"
+      },
+      {
+        "id": "96704e44796a9170880512d3",
+        "name": "Thomas Wright",
+        "email": "t.wright@example.com",
+        "subject": "Accessibility audit request",
+        "message": "We need an accessibility audit of an existing React application ahead of a compliance deadline.",
+        "status": "archived",
+        "ipAddress": null,
+        "readAt": "2026-07-14T09:00:00.000Z",
+        "createdAt": "2026-07-14T09:00:00.000Z",
+        "updatedAt": "2026-07-14T09:00:00.000Z"
+      },
+      {
+        "id": "6ab131bfa9e2a2eb186998cd",
+        "name": "Mohammed",
+        "email": "muhammed@docme.cloud",
+        "subject": "sfds",
+        "message": "sssfdfsdfsfsd",
+        "status": "unread",
+        "ipAddress": "::1",
+        "readAt": null,
+        "createdAt": "2026-09-21T13:31:43.364Z",
+        "updatedAt": "2026-09-21T13:31:43.364Z"
+      },
+      {
+        "id": "6ab131d220b7c3463fb29b2b",
+        "name": "Mohammed",
+        "email": "muhammed@docme.cloud",
+        "subject": "sfsaf",
+        "message": "afasfdfsaff",
+        "status": "unread",
+        "ipAddress": "::1",
+        "readAt": null,
+        "createdAt": "2026-09-21T13:32:02.558Z",
+        "updatedAt": "2026-09-21T13:32:02.558Z"
+      },
+      {
+        "id": "6ab24805db76d01db687bd80",
+        "name": "sfas",
+        "email": "asfa@gmail.com",
+        "subject": "safdsfasdf",
+        "message": "afasfasfafasf",
+        "status": "unread",
+        "ipAddress": "::1",
+        "readAt": null,
+        "createdAt": "2026-09-22T09:19:01.874Z",
+        "updatedAt": "2026-09-22T09:19:01.874Z"
+      }
+    ]
+  }
+}
