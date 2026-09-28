@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-09-25T12:22:43.238Z",
+  "savedAt": "2026-09-28T09:39:01.953Z",
   "data": {
     "profile": {
       "id": "dde724e8fa0b236041a10668",
@@ -24,10 +24,10 @@
       "linkedinUrl": "https://www.linkedin.com/in/example",
       "websiteUrl": null,
       "avatarUrl": null,
-      "resumeUrl": null,
+      "resumeUrl": "https://docs.google.com/document/d/1pNYVVLtzNPpDFiDIQzOP1ZEJuxGsudXhWYR0eXpmVvY/edit?usp=sharing",
       "availableForWork": true,
       "createdAt": "2026-01-05T09:00:00.000Z",
-      "updatedAt": "2026-09-25T12:22:42.975Z"
+      "updatedAt": "2026-09-28T09:39:01.696Z"
     },
     "technologies": [
       {

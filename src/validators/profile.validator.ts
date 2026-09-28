@@ -54,7 +54,7 @@ export const updateProfileValidator: ValidationChain[] = [
   optionalUrl(body('websiteUrl'), 'Website URL'),
 
   body('avatarUrl').optional({ nullable: true }).isString().isLength({ max: 500 }),
-  body('resumeUrl').optional({ nullable: true }).isString().isLength({ max: 500 }),
+  optionalUrl(body('resumeUrl'), 'Resume URL'),
 
   body('availableForWork')
     .optional()
