@@ -15,9 +15,10 @@
     "start": "node dist/server.js",
     "typecheck": "tsc --noEmit",
     "mock:reset": "tsx src/scripts/resetMockData.ts",
-    "//": "MongoDB scripts — usable only once DATA_SOURCE=mongo (final migration step)",
+    "//": "MongoDB scripts — need MONGODB_URI; the server itself uses Mongo when DATA_SOURCE=mongo",
     "db:ping": "tsx src/scripts/ping.ts",
     "db:indexes": "tsx src/scripts/syncIndexes.ts",
+    "db:import": "tsx src/scripts/importStore.ts",
     "db:drop": "tsx src/scripts/drop.ts",
     "test": "cross-env NODE_ENV=test vitest run",
     "test:watch": "cross-env NODE_ENV=test vitest"

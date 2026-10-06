@@ -6,6 +6,7 @@ import { Education } from './Education'
 import { Skill } from './Skill'
 import { ContactMessage } from './ContactMessage'
 import { Profile } from './Profile'
+import { AdminSession } from './AdminSession'
 
 /**
  * Model registry.
@@ -20,9 +21,20 @@ import { Profile } from './Profile'
  * on Project carries the relationship, so the join collection no longer exists.
  */
 
-export { Admin, Project, Technology, Experience, Education, Skill, ContactMessage, Profile }
+export {
+  Admin,
+  AdminSession,
+  Project,
+  Technology,
+  Experience,
+  Education,
+  Skill,
+  ContactMessage,
+  Profile,
+}
 
 export type { AdminAttributes, AdminDocument } from './Admin'
+export type { AdminSessionAttributes } from './AdminSession'
 export type { ProjectAttributes, ProjectDocument, PopulatedProject } from './Project'
 export type { TechnologyAttributes, TechnologyDocument } from './Technology'
 export type { ExperienceAttributes, ExperienceDocument } from './Experience'
@@ -39,6 +51,7 @@ export type { ProfileAttributes, ProfileDocument } from './Profile'
  */
 export const models = {
   Admin,
+  AdminSession,
   Profile,
   Technology,
   Project,

@@ -3,9 +3,11 @@ import type { Server } from 'node:http'
 
 import { createApp } from './app'
 import { env } from './config/env'
+import { connectDatabase, describeConnectionError, disconnectDatabase } from './config/database'
 import { initStore } from './repositories/memory/store'
 import { flushPending, writeSnapshot } from './repositories/memory/persistence'
 import { getStore } from './repositories/memory/store'
+import { syncAdminFromEnv } from './repositories/mongo/admin.repository'
 
 /**
  * Process entry point: prepare storage, bind the port, and shut down cleanly.
@@ -21,10 +23,21 @@ async function start(): Promise<void> {
   // Fail fast: storage that cannot initialise should stop the process now,
   // with a clear message, rather than surfacing as 500s on first traffic.
   try {
-    await initStore()
-    console.log(
-      `[store] ready (source: ${env.dataSource}, persistence: ${env.dataPersist ? 'on' : 'off'})`
-    )
+    if (env.usesMemoryStore) {
+      await initStore()
+      console.log(
+        `[store] ready (source: memory, persistence: ${env.dataPersist ? 'on' : 'off'})`
+      )
+    } else {
+      try {
+        await connectDatabase()
+      } catch (error) {
+        for (const line of describeConnectionError(error)) console.error(`[store] ${line}`)
+        throw error
+      }
+      await syncAdminFromEnv()
+      console.log(`[store] ready (source: mongo, database: ${env.mongodbDbName})`)
+    }
     // The admin account is built from ADMIN_EMAIL/ADMIN_PASSWORD at boot and
     // is NOT reloaded afterwards. Printing the email (never the password)
     // makes it obvious when the running server predates an edit to .env —
@@ -53,9 +66,13 @@ async function start(): Promise<void> {
   const shutdown = (signal: string) => {
     console.log(`\n[server] ${signal} received, shutting down`)
     server.close(() => {
-      flushPending()
-      console.log('[server] closed cleanly')
-      process.exit(0)
+      if (env.usesMemoryStore) flushPending()
+      void disconnectDatabase()
+        .catch(() => undefined)
+        .finally(() => {
+          console.log('[server] closed cleanly')
+          process.exit(0)
+        })
     })
 
     // Do not hang forever on a stuck connection. Flush before exiting anyway,
@@ -63,7 +80,7 @@ async function start(): Promise<void> {
     setTimeout(() => {
       console.error('[server] forced shutdown after timeout')
       try {
-        writeSnapshot(getStore())
+        if (env.usesMemoryStore) writeSnapshot(getStore())
       } catch {
         // Nothing useful left to do at this point.
       }
