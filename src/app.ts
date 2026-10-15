@@ -45,13 +45,27 @@ export function createApp(container: Container = createContainer()): Express {
 
   // 2. CORS with credentials, so the browser will send and store the auth
   //    cookie. A credentialed request may not use a wildcard origin, so the
-  //    frontend origin must be named exactly.
+  //    frontend origin must be matched explicitly.
+  const allowedOrigins = new Set([
+    env.clientUrl,
+    'http://localhost:5173',
+    'http://127.0.0.1:5173',
+  ])
+
   app.use(
     cors({
-      origin: env.clientUrl,
+      origin: (origin, callback) => {
+        if (!origin || allowedOrigins.has(origin)) {
+          return callback(null, true)
+        }
+        if (env.isDevelopment && /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin)) {
+          return callback(null, true)
+        }
+        callback(null, false)
+      },
       credentials: true,
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
-      allowedHeaders: ['Content-Type', 'X-CSRF-Token'],
+      allowedHeaders: ['Content-Type', 'X-CSRF-Token', 'Authorization', 'X-Requested-With'],
     })
   )
 

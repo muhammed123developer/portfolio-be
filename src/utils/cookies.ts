@@ -25,12 +25,10 @@ export const CSRF_HEADER = 'x-csrf-token'
 
 function baseOptions(): CookieOptions {
   return {
-    // Lax rather than Strict: Strict would drop the cookie when an admin
-    // follows a link into the panel from elsewhere, which reads as a random
-    // logout. Lax still blocks the cross-site POSTs that CSRF relies on.
-    sameSite: 'lax',
-    // HTTPS-only in production or whenever the site is served over HTTPS;
-    // off only for plain-http local development. See env.ts.
+    // When served over HTTPS (production cross-site Vercel <-> Render),
+    // sameSite must be 'none' so browsers attach the cookie on cross-site fetches.
+    // In local development over HTTP, browsers reject 'none' without secure, so use 'lax'.
+    sameSite: env.cookieSecure ? 'none' : 'lax',
     secure: env.cookieSecure,
     path: '/',
     // No maxAge/expires: a browser-session cookie, gone when the browser
